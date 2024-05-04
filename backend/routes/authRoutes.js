@@ -27,7 +27,7 @@ const {
   getOrders,
   updateOrderStatus,
   getAllOrders,
-} = require("../controller/userCtrl");
+} = require("../controllers/userController");
 
 router.post("/register", createUser);
 router.post("/forgot-password-token", forgotPasswordToken);

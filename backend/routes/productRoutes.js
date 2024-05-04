@@ -7,7 +7,7 @@ const {
   deleteProduct,
   addToWishlist,
   rating,
-} = require("../controller/productCtrl");
+} = require("../controllers/productController");
 const { isAdmin, authMiddleware } = require("../middlewares/authMiddleware");
 const router = express.Router();
 
